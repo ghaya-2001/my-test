@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "WorkSans[wght]";
+  src: local("WorkSans[wght]"),
+   url("./fonts/WorkSans[wght].ttf") format("truetype");
+  font-weight: normal;
+  }

@@ -1,0 +1,21 @@
+.main{
+    background: #E5E5E5;
+    width:100vw;
+    height:100vh;
+    
+    
+}
+.title{
+    font-family: "WorkSans[wght]";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #1B31A8;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+    
