@@ -12,9 +12,12 @@ const Counter =() =>{
             <div>
                 <table>
                     <tr>
-                        <td>{count}</td>
+                       
                         <td>
                         <button onClick={()=>setcount(count+1)}>+</button>
+                        </td>
+                        <td>{count}</td>
+                        <td>
                         <button onClick={()=>setcount(count-1)}>-</button>
                         </td>
                     </tr>
