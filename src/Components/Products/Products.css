@@ -1,74 +1,24 @@
-/* HIDE RADIO */
-[type=radio] { 
-    position: absolute;
-    opacity: 0;
-    width: 0;
-    height: 0;
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
   }
   
-  /* IMAGE STYLES  kif yabda input type mte3ha radio w m3aha image */
+  /* IMAGE STYLES kif yabda input type mte3ha radio w m3aha image */
   
   [type=radio] + img {
-    cursor: pointer;
-    position: absolute;
-    
+  cursor: pointer;
+  margin: 2%;
+  margin-top: 5%;
+  
   }
   img {
-    width: 60px;
+  width: 60px;
   }
   /* CHECKED STYLES nafs elli fou9ha ama el radio checked */
   [type=radio]:checked + img {
-    outline: 2px solid blue;
-    border-radius:50px
+  filter: invert(39%) sepia(23%) saturate(7007%) hue-rotate(219deg) brightness(103%) contrast(101%);
+  
+  
   }
-  .travel {
-    position: absolute;
-    top: 10px;
-    left:40px
-
-
-  }
-
-  .house{
-    position: absolute;
-    top: 10px;
-    left:145px
-
-
-  }
-  .dollar{
-    position: absolute;
-    top: 10px;
-    right:40px
-
-
-  }
-  .travelC {
-    position: absolute;
-    top: 10px;
-    left:40px
-
-
-  }
-
-  .houseC{
-    position: absolute;
-    top: 10px;
-    left:145px
-
-
-  }
-  .dollarC{
-    position: absolute;
-    top: 10px;
-    right:40px
-
-
-  }
-
-
-  [type=radio]:not(:checked) + img.travelC {
-    outline: 2px solid rgb(255, 77, 0);
-    border-radius:50px
-  }
- 

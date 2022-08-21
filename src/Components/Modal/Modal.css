@@ -1,24 +1,119 @@
 .modal{
-    background: #FFFFFF;
-    position:absolute;
-    margin-left:440px;
-    margin-bottom:1010px;
-    
-    box-shadow: 0px 16px 32px rgba(30, 42, 50, 0.08);
-    border-radius: 8px;
-    width:350px;
-    height:350px
-}
-.loanamount{
-    
-}
-.button{
+  background: #FFFFFF;
+  position:absolute;
+  margin-left:555px;
+  margin-bottom:1010px;
+  
+  box-shadow: 0px 16px 32px rgba(30, 42, 50, 0.08);
+  border-radius: 8px;
+  width:400px;
+  height:430px
+  }
+  
+  .button{
   border-radius: 34px;
   border: none ;
   color: white;
   font-size: 16px;
-  padding: 11px 26px 11px 26px ;
+  padding: 11px 100px 11px 100px ;
   background:#1B31A8;
   align-items: center;
   
-}
+  }
+  .counter{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E5E5E5;
+  padding-top:9px ;
+  padding-bottom:9px ;
+  margin-top: 26px;
+  margin-left: 21px;
+  
+  }
+  .loanamount{
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: 25px;
+  width: 165px;
+  border: none;
+  outline-width: 0;
+  color: grey;
+  font-family: "WorkSans[wght]";
+  font-weight: bold;
+  font-size: 20px;
+  
+  
+  
+  
+  
+  }
+  .loan{
+  
+  width: 195px;
+  margin-left: 25px;
+  
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E5E5E5;
+  margin-top: 26px;
+  
+  }
+  .sign{
+  width: 22px;
+  margin-top: 14px;
+  left: 30px;
+  position: absolute;
+  
+  }
+  td {
+  padding: 0px;
+  }
+  td p {
+  
+  position: absolute;
+  margin-left: 25px;
+  font-size: 12px;;
+  }
+  .text{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E5E5E5;
+  width: 345px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  }
+  .diffrence{
+  right: 50px
+  }
+  .toptext{
+  
+  width: 345px;
+  height: 75px;
+  
+  }
+  .bottomtext{
+  position: absolute;
+  top:270px;
+  width: 347px;
+  height: 80px;
+  left:25px;
+  background-color: #E5E5E5;
+  }
+  
+  .monthly {
+  font-size: 18px;
+  
+  
+  position: absolute;
+  left: 45px
+  }
+  .amount {
+  font-size: 25px;
+  position: absolute;
+  font-weight: bolder;
+  right: 55px;
+  top :210px;
+  color:#1B31A8;
+  }
