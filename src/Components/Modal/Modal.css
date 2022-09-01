@@ -50,7 +50,6 @@
   
   width: 195px;
   margin-left: 25px;
-  
   border-style: solid;
   border-width: 2px;
   border-color: #E5E5E5;
@@ -161,5 +160,30 @@ input[type=number] {
   
 }
 @media screen and (max-width:480px){
+  .modal{
+    height: 600px;
+    width: 380px;
+  }
+  .loan{
+    flex-direction: column;
+  }
+  .diffrence{
+    position: absolute;
+    background-color: aqua;
+    margin-top: 100px;
+    margin-right:220px ;
 
+  }
+  .counter{
+    position: absolute;
+    margin-top: 145px;
+    background-color: black;
+    left: 0%;
+    width:90% 
+  }
+  .text{
+    position: absolute;
+    margin-top: 100px;
+  }
+  
 }
