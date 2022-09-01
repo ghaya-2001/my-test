@@ -16,7 +16,12 @@ const Main =() =>{
             <div className="title">
                 <p>Let's plan your <b>loan.</b> </p>
             </div>
-            <div className="Modal">
+            <div className="Modal" style={{
+        display: 'flex',
+        justifyContent: 'center',
+        
+        height: '100vh',
+      }}>
               <Modal/> 
             </div>
 

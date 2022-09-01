@@ -7,12 +7,10 @@ import dollar from '../../Assets/dollar.png';
 
 const Products =(props) =>{
 
-console.log(props)
 
 
-   const logData=()=>{
-    console.log()
-   }
+
+   
 
 
 return(
@@ -21,23 +19,23 @@ return(
 <div className="products">
 
 <label>
-<input type="radio" value="Automobile Loan" onChange={(e)=>props.onChange(e.target.value) } onClick={()=>props.onClick()} />
+<input  checked={props.product ==="Automobile Loan"} type="radio" value="Automobile Loan" onChange={(e)=>props.onChange(e.target.value) } onClick={()=>props.onClick()} />
 <img src={travel} className='travel' alt='' />
 
 
 </label>
 
 <label>
-<input type="radio"  value="Housing Loan" onChange={(e)=>props.onChange(e.target.value) } onClick={()=>props.onClick()}/>
+<input   checked={props.product ==="Housing Loan"} type="radio"  value="Housing Loan" onChange={(e)=>props.onChange(e.target.value) } onClick={()=>props.onClick()}/>
 <img src={house} className="house" alt='' />
 
 </label>
 <label>
-<input type="radio"  value="Cash Loan" onChange={(e)=>props.onChange(e.target.value) } onClick={()=>props.onClick()}/>
+<input  checked={props.product ==="Cash Loan"} type="radio"  value="Cash Loan" onChange={(e)=>props.onChange(e.target.value) } onClick={()=>props.onClick()}/>
 <img src={dollar} className="dollar" alt='' />
 
 </label>
-<button onClick={()=>logData()}>Test</button>
+
 
 </div>
 
