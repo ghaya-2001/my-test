@@ -32,7 +32,7 @@
   .loanamount{
   padding-top: 14px;
   padding-bottom: 14px;
-  margin-left: 25px;
+  
   width: 165px;
   border: none;
   outline-width: 0;
@@ -153,7 +153,14 @@ input[type=number] {
   font-family: "WorkSans[wght]";
     font-style: normal;
 }
-.error{
+.error1{
+  color:red;
+  font-size: 10px;
+ top: 40%;
+  
+}
+
+.error2{
   color:red;
   font-size: 10px;
  top: 40%;
@@ -162,28 +169,59 @@ input[type=number] {
 @media screen and (max-width:480px){
   .modal{
     height: 600px;
-    width: 380px;
+    width: 99vw;
   }
   .loan{
-    flex-direction: column;
+    width: 300px;
+    
+  }
+  .loanamount{
+    
+    width: 95%;
   }
   .diffrence{
     position: absolute;
-    background-color: aqua;
+    
     margin-top: 100px;
-    margin-right:220px ;
+   left:0px ;
+    width: 30%;
 
   }
   .counter{
     position: absolute;
-    margin-top: 145px;
-    background-color: black;
+    top: 180px;
+    
     left: 0%;
-    width:90% 
+    width:88% 
   }
   .text{
     position: absolute;
-    margin-top: 100px;
+    top: 285px;
+    right: 5%;
+    align-self: center;
+    width: 90%;
   }
-  
+  .amount{
+    position:absolute;
+    top: 15px;
+  }
+  .bottomtext{
+    position: absolute;
+    top:66px;
+   left:0%;
+   width: 100%;
+  }
+  .button{
+    margin-top: 88%;
+    height: 65px;
+  }
+  .error1{
+    position: absolute;
+    top: 162px;
+  }
+  .error2{
+    position: absolute;
+    top: 255px;
+    left: 0%;
+  }  
 }

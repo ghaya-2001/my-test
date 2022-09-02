@@ -5,7 +5,7 @@
   height: 0;
   }
   
-  /* IMAGE STYLES kif yabda input type mte3ha radio w m3aha image */
+  /* IMAGE STYLES  */
   
   [type=radio] + img {
   cursor: pointer;
@@ -16,9 +16,10 @@
   img {
   width: 60px;
   }
-  /* CHECKED STYLES nafs elli fou9ha ama el radio checked */
+  /* CHECKED STYLES  */
   [type=radio]:checked + img {
   filter: invert(39%) sepia(23%) saturate(7007%) hue-rotate(219deg) brightness(103%) contrast(101%);
   
   
   }
+  

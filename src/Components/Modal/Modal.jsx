@@ -166,11 +166,11 @@ onBlur={()=>checkLoan()}
 </tr>
 <tr>
   <td>
-    <p className='error'>{error1}</p>
+    <p className='error1'>{error1}</p>
   </td>
 
   <td>
-    <p className='error'>{error2}</p>
+    <p className='error2'>{error2}</p>
   </td>
 
 
